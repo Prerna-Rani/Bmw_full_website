@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Merriweather", serif;
+}
+
+.full_widthfooter {
+    background: #f6f6f6;
+    width: 100%;
+    height: auto;
+}
+
+.fix_widthfooter {
+    background: none;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.content_onefooter {
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 100px;
+    list-style: none;
+    justify-content: center;
+}
+
+.content_twofooter {
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.box_1footer {
+    background: none;
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box_2footer {
+    background: none;
+    width: 90%;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+}
+
+.row_1footer {
+    list-style: none;
+}
+
+@media only screen and (max-width:800px) {
+    .content_onefooter {
+        flex-direction: column;
+    }
+
+    .content_twofooter {
+        flex-direction: column;
+    }
+
+
+    .box-1footer {
+        flex-direction: column;
+    }
+
+    .box-2footer {
+        flex-direction: column;
+    }
+
+}
+
+.fa-brands {
+    margin: 5px;
+}
+
+.title_footer {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.footer_link_a {
+    font-size: 13px;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: black;
+}
+
+.fa-solid {
+    color: blue;
+}
